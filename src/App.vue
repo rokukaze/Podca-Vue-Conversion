@@ -2,6 +2,7 @@
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png">
     <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <MostRecentPodcast/>
     <RecentPodcasts/>
     <BehindTheMic/>
     <FeaturedGuests/>
@@ -17,12 +18,12 @@ import SubscribeBanner from './components/SubscribeBanner.vue'
 import FeaturedGuests from './components/FeaturedGuests.vue'
 import BehindTheMic from './components/BehindTheMic.vue'
 import RecentPodcasts from './components/RecentPodcasts.vue'
-
+import MostRecentPodcast from './components/MostRecentPodcast.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld, PodcaFooter, SubscribeBanner, FeaturedGuests, BehindTheMic, RecentPodcasts
+    HelloWorld, PodcaFooter, SubscribeBanner, FeaturedGuests, BehindTheMic, RecentPodcasts, MostRecentPodcast
   }
 }
 </script>
