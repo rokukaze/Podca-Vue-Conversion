@@ -1,5 +1,6 @@
 <template>
   <div id="app">
+      <div class="site-wrap">
     <img alt="Vue logo" src="./assets/logo.png">
     <HelloWorld msg="Welcome to Your Vue.js App"/>
     <SiteMobileMenu/>
@@ -10,6 +11,7 @@
     <FeaturedGuests/>
     <SubscribeBanner/>
     <PodcaFooter/>
+    </div>
   </div>
 </template>
 
