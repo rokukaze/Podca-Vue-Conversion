@@ -2,6 +2,7 @@
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png">
     <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <SubscribeBanner/>
     <PodcaFooter/>
   </div>
 </template>
@@ -9,11 +10,12 @@
 <script>
 import HelloWorld from './components/HelloWorld.vue'
 import PodcaFooter from './components/PodcaFooter.vue'
+import SubscribeBanner from './components/SubscribeBanner.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld, PodcaFooter
+    HelloWorld, PodcaFooter, SubscribeBanner
   }
 }
 </script>
